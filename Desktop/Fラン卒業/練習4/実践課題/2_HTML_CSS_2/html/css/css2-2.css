@@ -1,0 +1,145 @@
+html,body{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #393939;
+  background: #ffffff;
+}
+
+body {
+  width: 1100px;
+  margin: 20px;
+}
+
+div,h2,header,ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*====ヘッダー====*/
+.header {
+  margin: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  list-style-type: none;
+}
+
+.header-logo-nav {
+  margin-left: 20px ;
+}
+
+/*====プロフィール====*/
+.content1-profile {
+  width: 1100px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.content1-profile-area {
+  border: 0.1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.content1-profile-area-img {
+  width: 270px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content1-profile-area-img-info {
+  width: 760px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.content1-profile-area-img-info-button{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 270px;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+.content1-profile-area-img-info-button a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.content1-profile-area-img-info-button-twitter {
+  background-color: rgb(12, 147, 231);
+  padding:10px 0;
+  width: 120px;
+  border-radius: 5px
+}
+
+.content1-profile-area-img-info-button-facebook {
+  background-color: rgb(17, 1, 126);
+  padding:10px 0;
+  width: 120px;
+  border-radius: 5px
+}
+
+/*====ワーク====*/
+.content2-works {
+  width: 1100px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.content2-works-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content2-works-boxes-box {
+  position: relative;
+  width: 350px;
+  height: 250px;
+}
+
+.content2-works-boxes-box-img-pink {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(253, 127, 255);
+  padding: 40px;
+  opacity: 0.4;
+}
+
+.content2-works-boxes-box-img-bule {
+  width: 250px;
+  height: 150px;
+  background-color: aquamarine;
+  padding: 40px;
+  opacity: 0.4;
+}
+
+
+
+.content2-works-boxes-box-img-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 210px;
+  height: 225px;
+  align-items: center;
+  text-align: center;
+  margin: 15px;
+  padding: 40px;
+  color: white;
+}
+
+.content2-works-boxes-box p {
+  font-size: 80%;
+  margin: 0;
+  margin-top: 20px;
+  border-bottom: 0.2px rgb(255, 255, 255) solid;
+}
