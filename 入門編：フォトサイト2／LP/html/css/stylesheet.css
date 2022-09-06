@@ -1,0 +1,136 @@
+/*　共通　*/
+body {
+    font-size: 90%;
+}
+
+ul {
+    list-style: none;
+}
+
+li ,ol,p {
+    margin: 0;
+    line-height: 300%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.inner-title {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.inner-wrapper,footer {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+/*　1025px以上　*/
+@media (min-width:1024px) {
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+/*　Header　*/
+header {
+    margin: 50px 0 20px 10px;
+}
+
+header img{
+    width:270px
+}
+
+/*　Mainvisual　*/
+.mainvisual img{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+/*　Index　*/
+.index {
+    background-color: rgb(244, 244, 244);
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.index-box {
+    border: solid 1px black;
+    padding: 20px;
+}
+
+.index-box-list {
+    display: table;
+    margin: 0 auto;
+}
+
+/*　Photos　*/
+.photos-list {
+    margin: 0 0 50px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.photos-list li {
+    width: 100%;
+}
+
+/*　1025px以上　*/
+@media (min-width:1024px) {
+    .photos-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .photos-list li{
+        width: 48%;
+    }
+}
+
+/*　Detail　*/
+.detail {
+    background-color: rgb(244, 244, 244);
+    padding: 30px;
+    margin-bottom: 50px;
+} 
+
+.detail-book {
+    border-bottom: solid 1px black;
+}
+
+.detail-text-link.detail-text-link:hover {
+    color: black;
+    opacity: 0.5;
+}
+
+/*　1025px以上　*/
+@media (min-width:1024px) {
+    .detail {
+        padding: 60px;
+    }
+    .detail-flex {
+        display: flex;
+
+    }
+
+    .detail-book{
+        border-bottom: none;
+        border-right: solid 1px black;
+        padding-right: 30px;
+        flex: 1;
+    }
+
+    .detail-text {
+        padding-left: 30px;
+        flex: 2;
+    }
+}
+
+/*　Footer　*/
+footer{
+    text-align: center;
+}
