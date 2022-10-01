@@ -172,15 +172,14 @@ nav li .icon {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border-top: solid 1px #c8c8c8;
     margin-bottom: 15px;
 }
 
 #news dt {
     width: 100%;
-    border-bottom: solid 1px #c8c8c8;
-    padding: 10px 10px 0 10px;
-    margin: 0;
+    border:none;
+    padding:10px 10px 0 10px;
+    margin:0;
 }
 
 #news dd {
@@ -192,6 +191,7 @@ nav li .icon {
 
 @media screen and (min-width: 600px) {
     #news dl {
+        max-width: 960px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -201,6 +201,7 @@ nav li .icon {
     #news dt {
         width: 20%;
         padding: 15px;
+        border-bottom: solid 1px #c8c8c8;
     }
 
     #news dd {
@@ -229,7 +230,6 @@ nav li .icon {
 #contact textarea {
     width: 100%;
     padding: 10px;
-    border-top: solid 1px #c2c2c2;
 }
 
 #contact textarea {
