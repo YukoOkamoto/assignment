@@ -1,0 +1,282 @@
+/* 共通　*/
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #24292e;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+.section {
+    max-width: 960px;
+    margin: 0 auto 70px auto;
+    font-size: 90%;
+    padding: 4%;
+    margin-bottom: 70px;
+}
+
+
+.site-title {
+    line-height: 1px;
+}
+
+.site-title {
+    display: block;
+    margin-top: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 0 0 40px;
+    line-height: 1px;
+    font-size: 24PX;
+}
+
+@media screen and (min-width: 600px) {
+    .section-title {
+        margin: 60px 0 40px;
+    }
+}
+
+/* HEADER */
+#header {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media screen and (min-width: 600px) {
+    #header {
+        max-width: 960px;
+        height: 270px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 4%;
+        margin: 0 auto;
+    }
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+nav li {
+    font-size: 90%;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+nav li a {
+    color: #24292e;
+}
+
+nav li a:hover {
+    opacity: 0.5;
+}
+nav li .icon {
+    width: 22px;
+  }
+
+@media screen and (min-width: 600px) {
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 960px;
+        height: 270px;
+        margin: 0 auto;
+        align-items: center;
+      }
+}
+
+
+/* MAINVISUAL */
+.mainvisual img{
+    width: 100%;
+    height: 420px;
+    max-width: 1920px;
+    object-fit: cover;
+    margin-bottom: 70px
+}
+
+.sp { display: block !important; }
+.pc { display: none !important; }
+
+@media only screen and (min-width: 600px) {
+    .sp { display: none !important; }
+    .pc { display: block !important; }
+}
+
+/* ABOUT */
+#about ul {
+    margin-bottom: 30px;
+}
+#about p {
+    text-align: justify;
+}
+
+/* WORKS */
+#works ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 960px;
+    padding: 0;
+}
+
+#works li {
+    margin-bottom: 23px;
+}
+
+
+@media screen and (min-width: 600px) {
+    #works ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    #works li {
+        width: 30%;
+    }
+
+}
+
+/* NEWS */
+#news dl {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#news dt {
+    width: 100%;
+    border:none;
+    padding:10px 10px 0 10px;
+    margin:0;
+}
+
+#news dd {
+    width: 100%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 0 10px 10px 10px;
+    margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+    #news dl {
+        max-width: 960px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    #news dt {
+        width: 20%;
+        padding: 15px;
+        border-bottom: solid 1px #c8c8c8;
+    }
+
+    #news dd {
+        width: 70%;
+        padding: 15px;
+    }
+}
+
+/* CONTACT */
+#contact dl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#contact dt {
+    max-width: 100%;
+}
+
+#contact dd {
+    width: 100%;
+    margin: 0;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+#contact textarea {
+    height: 10rem;
+}
+
+.button {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.button input {
+    padding: 15px 0;
+    color: #fff;
+    background-color: #24292e;
+}
+
+.button input:hover {
+    background: #fff;
+    color: #24292e;
+}
+
+@media screen and (min-width: 600px) {
+    #contact dl {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #contact dt {
+        width: 15%;
+    }
+
+    #contact dd {
+        width: 85%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* footer */
+#footer {
+    background-color: #24292e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 80%;
+    line-height: 1px;
+}
