@@ -1,0 +1,160 @@
+/* 共通 */ 
+html {
+    font-size: 100%;
+    font-family: 'Crimson Text', serif;
+}
+
+body, div, p, h1, h2, h3, h4, ul, a {
+	margin: 0;
+	padding: 0;
+    color: #2d2d2d;
+}
+
+img {
+	width: 100%;
+	height: auto;
+    vertical-align: bottom;
+    line-height: 1.0em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight:normal
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* MAINVISUAL */
+.mainvisual {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+@media screen and (min-width: 767px)  {
+    .mainvisual {
+        max-width: 90vw;
+        margin: 50px auto 20px auto;
+    }
+}
+
+/* HEADER */
+.header-contents {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 32px 20px;
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    width: 110px;
+    line-height: 1px;
+    margin-right: 50px;
+}
+
+.header-logo a {
+    display: block;
+  }
+
+@media screen and (min-width: 767px)  {
+    .header-contents {
+        max-width: 90vw;
+        margin: 20px auto 20px auto;
+    }
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    font-size: 80%;
+    margin-right: 20px;
+}
+
+/* MAIN */
+.container {
+    max-width: 1000px;
+    padding: 0 20px;
+}
+
+.concept-text h4 {
+    font-size: 100%;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 767px)  {
+    .container , .footer{
+        margin: 0 auto;
+    }
+}
+
+/* Concept */
+h2 {
+    font-size: 120%;
+    margin-bottom: 5px;
+    font-weight:normal;
+}
+
+h4 {
+    font-size: 100%;
+    margin-bottom: 28px;
+}
+
+
+/* WORK */
+.work {
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 767px)  {
+    .concept , .work{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .concept img,.work img {
+        width: 50%;
+    }
+
+    .work {
+        flex-direction: row-reverse;
+    }
+
+    .concept-text,.work-text {
+        padding: 0 7%;
+    }
+}
+
+/* FOOTER */
+#footer {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 80%;
+    padding: 20px 0;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    width: 110px;
+}
